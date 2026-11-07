@@ -7,7 +7,9 @@ authors = [
     { name = "Hugo Silva", email = "hugosilvag6@hotmail.com" }
 ]
 requires-python = ">=3.14"
-dependencies = []
+dependencies = [
+    "langchain>=1.4.9",
+]
 
 [project.scripts]
 langchain-course = "langchain_course:main"
